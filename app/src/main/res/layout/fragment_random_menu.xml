@@ -36,7 +36,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Total menus"
+            android:text="Total menús"
             android:layout_marginTop="30dp"
             style="@style/fontBold"
             android:gravity="center"
@@ -176,7 +176,7 @@
                 android:id="@+id/btn_generate_menu"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:text="generar menu"
+                android:text="generar menú"
                 android:layout_gravity="center"/>
 
             <Button
@@ -184,7 +184,7 @@
                 android:id="@+id/btn_save_menu"
                 android:layout_width="wrap_content"
                 android:layout_height="80dp"
-                android:text="guardar menu"
+                android:text="guardar menú"
                 android:layout_marginStart="36dp"
                 android:layout_gravity="center"/>
 

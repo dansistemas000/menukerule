@@ -3,14 +3,14 @@
     <item
         android:id="@+id/homeMenuFragment"
         android:icon="@drawable/ic_baseline_restaurant_menu_24"
-        android:title="Menus" />
+        android:title="Menús" />
     <item
         android:id="@+id/addMenuFragment"
         android:icon="@drawable/ic_baseline_add_circle_24"
-        android:title="Agregar menu" />
+        android:title="Agregar menú" />
     <item
         android:id="@+id/randomMenuFragment"
         android:icon="@drawable/ic_baseline_transform_24"
-        android:title="Menu kerule" />
+        android:title="Menú kerule" />
 
 </menu>
