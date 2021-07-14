@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/homeMenuFragment">
+
+    <fragment
+        android:id="@+id/addMenuFragment"
+        android:name="com.example.menukerule.ui.addmenu.AddMenuFragment"
+        android:label="fragment_home_menu"
+        tools:layout="@layout/fragment_add_menu" />
+    <fragment
+        android:id="@+id/homeMenuFragment"
+        android:name="com.example.menukerule.ui.home.HomeMenuFragment"
+        android:label="fragment_home_menu"
+        tools:layout="@layout/fragment_home_menu" />
+    <fragment
+        android:id="@+id/randomMenuFragment"
+        android:name="com.example.menukerule.ui.randommenu.RandomMenuFragment"
+        android:label="RandomMenuFragment" />
+</navigation>

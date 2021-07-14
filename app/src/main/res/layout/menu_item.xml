@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+
+        <TextView
+            android:id="@+id/menu_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="hace 2 dias"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_margin="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_restaurant_menu_24"/>
+
+        <TextView
+            android:fontFamily="@font/bergante"
+            android:id="@+id/menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:paddingStart="6dp"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textColor="#CBAA4A"
+            tools:text="Nombre Menu" />
+
+        <!--<ImageView
+            android:id="@+id/btn_update"
+            android:visibility="visible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingStart="8dp"
+            android:src="@drawable/ic_baseline_edit_24"
+            />-->
+
+        <ImageView
+            android:id="@+id/btn_close"
+            android:visibility="visible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingStart="8dp"
+            android:src="@drawable/ic_baseline_close_24"
+            />
+
+        <ImageView
+            android:id="@+id/btn_check"
+            android:visibility="visible"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingStart="8dp"
+            android:src="@drawable/ic_baseline_check_box_24"
+            app:tint="#16b756"
+            />
+
+    </LinearLayout>
+
+    <it.mike5v.viewmoretextview.ViewMoreTextView
+        android:visibility="gone"
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:ellipsizeText="ver más"
+        app:visibleLines="3"
+        app:duration="500"
+        app:isExpanded="false"
+        app:ellipsizeTextColor="#a5a0a0"
+        />
+
+
+</LinearLayout>

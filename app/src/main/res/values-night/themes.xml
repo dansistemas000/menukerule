@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Menukerule" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#CBAA4A</item>
+        <item name="colorPrimaryVariant">#CBAA4A</item>
+        <item name="colorOnPrimary">#F8F6F6</item>
+        <item name="colorAccent">#CBAA4A</item>
+        <item name="android:textColorHint">#CBAA4A</item>
+        <item name="android:fontFamily">@font/bergante</item>
+    </style>
+    <style name="fontBold" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">#CBAA4A</item>
+    </style>
+
+    <style name="tolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="backgroundColor">#CBAA4A</item>
+    </style>
+
+
+</resources>
